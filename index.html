@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="./src/assets/images/icon/icon.svg" type="image/x-icon">
+
+    <title>Mundo Invertido</title>
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body class="light-theme" - aria-label="O Site esta utilizando o tema light" role="body">
+
+    <header aria-label="Cabeçalho da página.">
+        <audio id="music" autoplay>
+            <source src="./src/assets/musics/normal-world.mpeg">
+            </audio>
+        
+            <div class="header-content">
+                <img class="invert-element" src="./src/assets/images/banner/logo.svg" alt="Imagem principal">
+                <p class="invert-element" role="text">
+                    Uma jornada para quem não tem medo do desconhecido. O caminho para o
+                    Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a
+                    Vecna. Você está preparado? Então clique no botão abaixo para entrar
+                    no Mundo Invertido!
+                    recompensa é grande: salvar Hawkings e o mundo todo das garras de
+                </p>
+                    
+                <button id="switch-theme-button" onclick="switchTheme()"> Inverter Mundos
+                </button>
+            </div>
+
+            <div id="top-characters" class="world-characters"></div>
+    </header>
+
+    <main>
+        <div id="bottom-characters" class="world-characters"></div>
+
+        <section id="section-inverted-world" class="container">
+            <div class="section-texts">
+                <h2> O que é o mundo invertido? </h2>
+                <p role="text">
+                    O Mundo Invertido parece uma cópia do nosso mundo, mas com criaturas
+                    horrendas, tempestades assustadoras, muita escuridão e entidades
+                    malignas. Um reino controlado por Vecna, que tem planos de trazer
+                    tudo isso ao nosso mundo.
+                <p>.</p>
+                <p>
+                    O Demogorgon é um predador ágil e implacável, com uma mandíbula impressionante e a capacidade de se teletransportar através de portais dimensionais. Além do Demogorgon e do Devorador de Mentes, capaz de controlar mentes e possui uma forma física horripilante, existem outras criaturas que habitam o Mundo Invertido, como os Mind Flayers, que são menores e mais numerosos, e outras formas de vida bizarras que emergem dos portais dimensionais.
+                </p>
+                </p>
+            </div>
+
+            <img class="invert-element" 
+            src="./src/assets/images/content/inverted-world.png" alt="Imagem ilustrativa do Mundo Invertido"/>       
+        </section>
+
+            <section id="section-stranger-things-trailer" class="container">
+                <div class="video-frame" aria-hidden="true">
+                  <iframe
+                    width="560"
+                    height="415"
+                    src="https://www.youtube.com/embed/VKWVxeTHZgU?si=zljDoD3e7zjTgATU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="section-texts">
+                    <h2> O que esperar da última temporada?</h2>
+                    <p role="text">
+                        A produção da quinta temporada iniciou em 2024, com filmagens planejadas para durar um ano inteiro. A atriz Maya Hawke, que interpreta Robin Buckley desde a terceira temporada, revelou recentemente que podemos esperar episódios extensos, quase como filmes individuais, intensificando o nível de detalhamento da narrativa.
+                        <p>.</p>
+                    <p>
+                        O anúncio dos títulos dos oito episódios da temporada já despertou a imaginação dos fãs. Embora Netflix e a equipe de produção mantenham a maioria das informações em sigilo, os títulos são sugestivos e podem oferecer algumas pistas sobre o rumo da narrativa. Termos enigmáticos como “The Crawl”, “Sorcerer” e “Escape from Camazotz” desencadeiam especulações sobre os novos desafios que os protagonistas enfrentarão. 
+                    </p>
+                </p>
+            </div>
+        </section>
+
+        <section id="section-stranger-things-gallery">
+            <div class="container section-text">
+                <h2> Imagens dos bastidores da 5ª temporada </h2>
+                <ul class="gallery-container" role="gallery">
+                    <li class="gallery-image invert-element">
+                        <img src="./src/assets/images/content/serie-image-01.jpeg" alt="Imagem do Vecna">
+                    </li>
+                    <li class="gallery-image invert-element">
+                        <img src="./src/assets/images/content/serie-image-02.jpeg" alt="Imagem ilustrativa dos personagens da série">
+                    </li>
+                    <li class="gallery-image invert-element">
+                        <img src="./src/assets/images/content/serie-image-03.jpeg" alt="Imagem da Eleven com seus amigos de fundo">
+                    </li>          
+                </ul>
+            </div>
+        </section>
+
+        <section id="section-form" class="container">
+            <h2> O Clube Dungeons & Dragons </h2>
+            <p>
+                Para deter Vecna, os heróis de Stranger Things também precisam de
+                você. O Clube de D&D mais famoso de Hawkings está com vagas abertas
+                para sua próxima aventura. Se você é destemido, gosta de desafios e
+                não tem medo de rodar o D20, chegou a hora de se inscrever para fazer
+                parte da nova campanha.
+              </p>
+
+            <div class="form-content">
+                <h3> Entre para o clube de D&D e tenha experiências de <span> outro mundo </span></h3>
+
+                <div class="form-container">
+                    <form>
+                    <label for="txtName"> Nome Completo</label>
+                    <input type="text" name="name" id="txtName">
+
+
+                    <label for="txtEmail">E-mail</label>
+                    <input type="email" name="email" id="txtEmail">
+
+                    <label for="txtLevel">Seu Level</label>
+                    <input type="text" name="level" id="txtLevel">
+
+                    <label for="txtCharacter">Seu Personagem</label>
+                    <textarea name="character" id="txtCharacter" cols="30" rows="10"></textarea>
+
+                    <button type="button" id="btnSubscribe"> Me inscrever </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+        Projeto construído para fins didáticos, com o objetivo de colocar em
+        prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._
+        </p>
+    <img src="./src/assets/images/footer/logo.svg" alt="logo da DIO.me">       
+    </footer>
+    <script  src="./src/scripts/engine.js"></script>
+</body>
+</html>

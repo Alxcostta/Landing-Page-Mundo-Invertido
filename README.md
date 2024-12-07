@@ -21,10 +21,10 @@
 <h2><a href="https://landing-page-mundo-invertido-theta.vercel.app/" target="_blank"> Acesse Agora </a></h2>
   
 <p> <img src="https://github.com/Alxcostta/Landing-Page-Mundo-Invertido/blob/main/src/assets/images/finalversion/light-theme.png" alt="Versão do site no "Mundo Real"> </p>
-<p> "Versão do site no "Mundo Real" <p>
+<p> Versão do site no "Mundo Real" <p>
   
 <p> <img src="https://github.com/Alxcostta/Landing-Page-Mundo-Invertido/blob/main/src/assets/images/finalversion/dark-theme.png" alt="Versão do site no "Mundo Invertido"> </p>
-<p> "Versão do site no "Mundo Invertido" <p>
+<p> Versão do site no "Mundo Invertido" <p>
   
 <p> <img src="https://github.com/Alxcostta/Landing-Page-Mundo-Invertido/blob/main/src/assets/images/finalversion/versao-desktop.png" alt="Versão desktop do site"> </p>
 <p> Landing page do site <p>
